@@ -9,7 +9,7 @@
 body {
     /* background-image: url("https://images.unsplash.com/photo-1639682581654-c1f618795af1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyODc0MTZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NDA5Nzg5NTM&ixlib=rb-1.2.1&q=80&w=1080"); */
     color: #555;
-    background-color: #f7f7f7;
+    background-color: #F5F5F5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,14 +29,15 @@ body {
 
 /* Card Section */
 .card {
-    background-color: #0000002b;
-    box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border: 2px solid #EBEBEB;
     padding: 2em;
     border-radius: 30px;
     width: 100%;
     max-width: 450px;
     margin: 1em;
 }
+
 
 .search {
     display: flex;
@@ -46,8 +47,9 @@ body {
 }
 
 .search-bar {
-    background-color: #7c7c7c2b;
-    color: #666;
+    background-color: white;
+    color: #242424;
+    border: 2px solid #EBEBEB;
     border-radius: 22px;
     font-family: inherit;
     font-size: 100%;
@@ -56,18 +58,24 @@ body {
 }
 
 .search-btn {
-    background: #7c7c7c2c;
+    background: white;
     border-radius: 50%;
     color: white;
+    border: 2px solid #EBEBEB;
     cursor: pointer;
     margin-left: 0.6rem;
     height: 44px;
     width: 44px;
-    transition: 0.2s ease-in-out;
+    transition: 0.2s ease-out;
+}
+
+.search-btn {
+    color: #dbdbdb;
 }
 
 .search-btn:hover {
-    background: #7c7c7c6b;
+    background: #363636;
+    border: 2px solid #363636;
 }
 
 .temp {
